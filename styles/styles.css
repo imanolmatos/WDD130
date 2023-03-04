@@ -14,7 +14,7 @@ h1 {
 }
 
 img {
-    width: 150px;
+    width: 300px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -23,15 +23,31 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
-aside{
-    width: 300x;
-    margin: 300x;
-    border: 3px;
-    padding: 4px;
+aside {
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(0,0,0,0.2); 
+    padding: 1em;
     background-color: #a8dadc;
     color:black;
+    text-align: center;
+}
+
+main img{ 
+    width: 200px;
+    height: auto;
+}
+
+footer {
+       margin-top: 1em;
+       border-top: 1px solid #000;
+       text-align: center;
+
+
+
 
 }
+
