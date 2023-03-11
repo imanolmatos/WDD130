@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 p {font-family: var(--paragraph-font);
      /* 5.Add colors to the fonts. */
-    color: #000500;
+    color: var(--accent2-color);
     padding: 25px;
 }
 
@@ -52,9 +52,9 @@ div h1 {
     position: absolute;
     bottom: 450px;
     left: 400px;
-    border: 1px solid #000;
+    border: 1px solid var(--accent2-color);
 	padding: 0.65rem;
-	box-shadow: 0 0 30px #111;
+	box-shadow: 0 0 30px var(--accent2-color);
     
 
 }
