@@ -21,7 +21,7 @@ h1 {
 }
 
 aside img {
-    position: absolute;
+    position: relative;
     float: right;
     width: 300px;
     height: auto;
