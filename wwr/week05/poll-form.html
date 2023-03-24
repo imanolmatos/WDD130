@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title> WDD HTML Form - User Poll</title>
+        <meta name="description" content="Imanol Matos, WDD13, This is the page for a poll.">
+        <meta name="author" content="Imanol Arturo Matos.">    
+        <link rel="stylesheet" type ="text/css" href="styles/poll-form.css">
+    </head>
+    <body>
+        <header>
+            <h1> WDD 130 | Imanol Matos | HTML Form - User Poll</h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <div class="form-item column2">
+                        <label for="fullname"> Full Name:</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+                    <div class="form-item column2">
+                        <label for="email">Email: </label>
+                        <input type="email" id="useremail" name="useremail"> 
+                    </div>  
+                </fieldset>
+                <fieldset>
+                    <legend>Questions</legend>
+                    <div class="form-item column1" >
+                        <label for="browser">What is your favorite Browser? </label>
+                        <select id="browser" name="browser">
+                            <option value="mozilla">Mozilla</option>
+                            <option value="chrome">Chrome </option>
+                            <option value="opera">Opera</option>
+                            <option value="internet explorer">Internet Explorer</option>
+                            <option value="safari">Safari</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet? </label>
+                        <input type="checkbox" id="pet" name="pet"> </input>
+                    </div>
+                    <fieldset>
+                        <label for="place">  List the places you have lived:</label>
+                        <textarea id="place" name="place" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                    </fieldset>
+                </fieldset>
+                <div>
+                    <button> Submit poll</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2023 | HTML Form - User Poll Activity | Imanol Matos</p>
+        </footer>
+    </body>
+</html>    
+ 
+
+
