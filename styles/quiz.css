@@ -88,3 +88,8 @@ label.style  {
     color: white;
 }
 
+footer{
+    display: grid;
+    justify-content: center;
+    align-content: left;
+}
