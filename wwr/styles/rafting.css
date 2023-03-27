@@ -255,7 +255,7 @@ legend{
     font-size: 1.3rem;
 }
 
-label,input,button,select,textarea{
+label,input,button,textarea{
     font-family:  'Roboto', sans-serif;
 }
 
@@ -264,7 +264,7 @@ label {
     padding-right: 1rem;
 }
 
-input, select, textarea{
+input, textarea{
     padding: 0.5rem;
     font-size: 1.1rem;
 }
