@@ -202,8 +202,6 @@ section.information{
     display: grid;
     position: relative;
     grid-template-columns: 1fr 1fr;
-    
-   
 
 }
 section.information h1{
@@ -237,8 +235,6 @@ form.therealform button{
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
-
-
 }
 
 button.trips {
@@ -251,15 +247,23 @@ button.trips {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    
 }
 
+section.button {
+    display: flex;
+    justify-content: center;
+    
+    
+
+
+}
 
 
 fieldset{
     display: grid;
     grid-gap: .5rem;
     margin: 1rem;
-   
     padding: 1rem;
 }
 
@@ -286,4 +290,38 @@ input, textarea{
 form.therealform button:hover,  a button.trips:hover {
     background-color: var(--nav-hover-link-color);
 }
+
+table { 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    border: 1px solid var(--accent2-color);
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+table td { 
+    position: relative;
+    margin: 20px;
+    border: 1px solid var(--accent2-color);
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.fullwidth img {
+    display: flex;
+    width: 1300px;
+
+}
+
+h1.ontext{
+     display: flex;
+     justify-content: center;
+
+}
+    
 
