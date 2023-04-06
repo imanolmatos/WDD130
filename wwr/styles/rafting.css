@@ -298,7 +298,7 @@ input, textarea{
     font-size: 1.1rem;
 }
 
-form.therealform button:hover,  a button.trips:hover {
+form.therealform button:hover,  button.trips:hover {
     background-color: var(--nav-hover-link-color);
 }
 
