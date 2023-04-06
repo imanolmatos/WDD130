@@ -73,6 +73,10 @@ header nav a {
     
 }
 
+div article p {
+    color: #ffe9e9;
+}
+
  
 header nav { 
     display: flex;
