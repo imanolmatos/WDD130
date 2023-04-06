@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
 /* 3.Define the CSS variables in the document :root pseudo-class selector from the color schema you have selected and documented in your website plan. */
 :root {
-    --primary-color: #2892D7;
+    --primary-color: #17537a;
     --secondary-color: #FFFFFC;
     --accent1-color: #4D8B31;
     --accent2-color: #000500;
@@ -14,7 +14,7 @@
     --heading-font: 'Bebas Neue', cursive;
     --paragraph-font: 'Roboto', sans-serif;
   
-    --nav-background-color: #2892D7;
+    --nav-background-color: #17537a;
     --nav-link-color: #000500;
     --nav-hover-link-color: #4D8B31;
     --nav-hover-background-color: #FFFFFC;
@@ -256,6 +256,13 @@ section.button {
     
     
 
+
+}
+
+
+section.griddivition {display: grid;
+    grid-auto-flow: column;
+    border: #000500;
 
 }
 
